@@ -1,0 +1,24 @@
+#cats {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+#moar_cats {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+#super_cats {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+#wizard {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  right: 40%;
+}

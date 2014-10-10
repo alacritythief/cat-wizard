@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HAPPY FUNTIMEZ</title>
+  <link href='css/styles.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<center>
+  <h1>STUPID STUFF HAPPY FUNTIME HAVIN' SO MUCH FUN</h1>
+  <img id="cats" src="img/cat_objects.png">
+  <img id="moar_cats" src="img/cat_objects.png">
+  <img id="super_cats" src="img/cat_objects.png">
+  <img id="wizard" src="img/wizard.png">
+</center>
+
+<script src="js/TweenMax.js"></script>
+
+<script>
+  window.onload = function() {
+    var cats = document.getElementById("cats");
+    TweenMax.to(cats, 1, {top:"500", left:"500", repeat: -1, yoyo:true, delay: 1});
+
+    var moar_cats = document.getElementById("moar_cats");
+    TweenMax.to(moar_cats, 1, {top:"500px", rotation: "+=365", repeat: -1, yoyo:true, delay: 2});
+
+    var super_cats = document.getElementById("super_cats");
+    TweenMax.to(super_cats, 1, {top:"500", right:"500", repeat: -1, yoyo:true, delay: 3});
+
+    var wizard = document.getElementById("wizard");
+    TweenMax.to(wizard, 0.5, {autoAlpha: 0.7, repeat: -1, yoyo:true, delay: 1});
+  }
+</script>
+
+</body>
+</html>
